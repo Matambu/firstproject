@@ -5,10 +5,11 @@
 
     Name: {{ forceusers.name}}
     Power: {{ forceusers.power}}
-    masters: {{ forceusers.masters }}
+    
     
    {% for master in all_masters %}
    name: {{ master.name}}
+   side: {{ master.side }}
    <form action= "{{url_for('update', id=master.id)}}" >
     <input type = submit value="Update">
 </form>

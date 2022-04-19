@@ -46,13 +46,16 @@ def add_master():
 
 @app.route("/update/<int:id>", methods=["GET","POST"])
 def update(id):
+    forceuser = ForceUsers.query.get(id)
     form = ForceUsersForm()
-    ForceUser = ForceUsers.query.filter_by(id=id).first()
     if request.method == "POST":
-        ForceUsers.name = form.name.data
-        ForceUsers.power = form.power.data
+        forceuser.name = form.name.data
+        forceuser.power = form.power.data
         db.session.commit()
         return redirect(url_for("index"))
+
+    form.name.data = forceuser.name
+    form.power.data = forceuser.power
     return render_template("forceusers.html", form = form,  ForceUsers = ForceUsers)
 
 
