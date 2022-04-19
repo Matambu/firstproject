@@ -45,7 +45,7 @@ The creation of my app required the use of:
 # Database
 
 
-![ERD](./application/images/ERD.png)
+![ERD](https://github.com/Matambu/firstproject/blob/master/project/application/images/ERD.png)
 
 As you can see above, my entity relationship diagram clearly shows the structure of my database. It displays what has been implemented into my database as well. My database conveys a one to many relationship. This is because the user can create forceusers and link it to multiple masters.
 
