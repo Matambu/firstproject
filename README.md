@@ -49,7 +49,7 @@ The creation of my app required the use of:
 
 As you can see above, my entity relationship diagram clearly shows the structure of my database. It displays what has been implemented into my database as well. My database conveys a one to many relationship. This is because the user can create forceusers and link it to multiple masters.
 
-![Picture2](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture10.png)
+![Picture2](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture2.png)
 
 Pictured above is the CI Pipeline with the related systems and services that I've used to create my project. Using this model has allowed me to rapidly develop, automate and complete tasks. For example, using Jenkins means I can automate tests. Any new code will automatically be pushed to Jenkins from Github using a webhook.
 
