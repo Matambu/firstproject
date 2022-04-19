@@ -49,26 +49,26 @@ The creation of my app required the use of:
 
 As you can see above, my entity relationship diagram clearly shows the structure of my database. It displays what has been implemented into my database as well. My database conveys a one to many relationship. This is because the user can create forceusers and link it to multiple masters.
 
-![Picture2](./application/images/Picture2.png)
+![Picture2](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture10.png)
 
 Pictured above is the CI Pipeline with the related systems and services that I've used to create my project. Using this model has allowed me to rapidly develop, automate and complete tasks. For example, using Jenkins means I can automate tests. Any new code will automatically be pushed to Jenkins from Github using a webhook.
 
 
 # Project Tracking
 
-![Picture3](./application/images/Picture3.png)
+![Picture3](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture3.png)
 
 In the above picture, I used Trello for my Kanban board to track my project accordingly and meet the MVP requirements. It helped me with procrastination and meeting deadlines.
 
 # Testing
 
-![Picture5](./application/images/Picture5.png)
+![Picture5](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture5.png)
 
 In the above picture, you can see the result of my testing of my application, which has provided an acceptable test coveragae result of 81%. Hopefully, with a few fixes, I can make my app flawless in the future
 
 # Risk Assessment
 
-![Picture6](./application/images/Picture6.png)
+![Picture6](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture6.png)
 
 In the above picture, you can see my detailed risk assessment in which I have outlined the most common and neccessary risks I may bump into. Ultimately, it is my responsibility that I make sure I minimize risk to a minimum impact on my project.
 
@@ -76,29 +76,29 @@ In the above picture, you can see my detailed risk assessment in which I have ou
 
 # Application
 
-![Picture7](./application/images/Picture7.png)
+![Picture7](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture7.png)
 
 In the above picture, we can see the home page that the user will see when going to my website. To add a forceuser or master, they can click on the buttons on the top.
 
 
-![Picture8](./application/images/Picture8.png) 
-![Picture9](./application/images/Picture9.png)
+![Picture8](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture8.png) 
+![Picture9](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture9.png)
 
 In the above picture, we can see the add forceuser page which allows me to add different characters from both sides of the Force, i.e Anakin or Vader.
 
 
-![Picture10](./application/images//Picture10.png)
+![Picture10](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture10.png)
 
 In the above picture, we can see the Add function being utilised as we can see a force user and master.
 
-![Picture11](./application/images/Picture11.png)
+![Picture11](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture11.png)
 
 In the abOve picture, we can see the Delete function being used as I have removed the master.
 
 
 
-![Picture13](./application/images/Picture13.png)
-![Picture14](./application/images/Picture14.png)
+![Picture13](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture13.png)
+![Picture14](https://github.com/Matambu/firstproject/blob/master/project/application/images/Picture14.png)
 
 In the above pictures, we can see the Update function being used to update forceuser to masters. 
 
