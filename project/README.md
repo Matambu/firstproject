@@ -2,12 +2,16 @@
 
 * [App Description](#app-description)
 * [Requirements](#requirements)
+* [Design](#design)
 * [Database](#database)
 * [Project Tracking](#project-tracking)
 * [Testing](#testing)
 * [Application](#application)
 * [CommonProblems](#common-problems)
+* [Apologies](#apologies)
 * [License](#license)
+
+
 
 # App-Description
 
@@ -16,17 +20,7 @@
 
 
 My README.md contains appropiate documentation for my fundamental project. My project was to create a CRUD application using Project Management, Python Fundamentals, Python Testing, Git, Basic Linux, Python Web Development, Continuous Integration, Cloud Fundamentals, Databases
-My app contained two tables called 'ForceUsers' and 'Masters'. The objective was to link a forceuser(anakin, luke) to a master(yoda, obi-wan).
-ForceUsers contained:
-Name
-Power
 
-Master contained:
-Name
-Side
-Force_users.id
-
-I want the user to be able to add and view forceusers, masters and delete, update them as well.
 
 
 # Requirements
@@ -39,6 +33,20 @@ The creation of my app required the use of:
 - Fully designed test suites, as well as automated tests for validation and high test coverage for backend
 - a functional front end website using Flask
 - Fully integrated code into a Version Control System using Feature Branch
+
+
+# Design
+
+My app contained two tables called 'ForceUsers' and 'Masters'. The objective was to link a forceuser(anakin, luke) to a master(yoda, obi-wan). 
+
+- To create a ForceUser, the user has to enter a Name and Power. To create a Master, the user has to enter a Name and Side
+
+- To view/read a ForceUser and Master, the user has to submit the details which will take them to a page with the listed info.
+
+- To Update a ForceUser or Master, the user has to press the update page which will take them to a similar page as the Create. They would have to enter in their details which will then be reflected after they press submit again.
+
+- To Delete a ForceUser or Master, the user will have to press the delete button which will wipe out that entry from the list..
+
 
 
 
@@ -63,8 +71,9 @@ In the above picture, I used Trello for my Kanban board to track my project acco
 # Testing
 
 ![Picture5](./application/images/Picture5.png)
+![Picture1](./application/images/Picture1.png)
 
-In the above picture, you can see the result of my testing of my application, which has provided an acceptable test coveragae result of 81%. Hopefully, with a few fixes, I can make my app flawless in the future
+In the above picture, you can see the result of my testing of my application, which has provided an acceptable test coverage result of 81% and 79% resepctfully. Hopefully, with a few fixes, I can make my app flawless in the future.
 
 # Risk Assessment
 
@@ -109,6 +118,9 @@ There's no authentication and authorisation set up.
 There is no current protection from hacking attacks.
 My data is not encrypted.
 
+# Apologies 
+
+APOLOGIES, I had not realised I hadn't pushed my final README to my repo, which was an honest mistake on my part, so I did so after my project deadline. I have not altered any other part of my project, including code. If this isn't acceptable, I can always push my old commit which I hadn't altered after the deadline. Kind regards, Marko
 
 
 
