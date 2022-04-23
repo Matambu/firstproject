@@ -13,10 +13,12 @@
 
 
 
+
 # App-Description
 
 
 
+[Link to video presentation](https://drive.google.com/file/d/1MoaKhKRi7mauDM0LA1GhsPd5Nn92w1iO/view?usp=sharing)
 
 
 My README.md contains appropiate documentation for my fundamental project. My project was to create a CRUD application using Project Management, Python Fundamentals, Python Testing, Git, Basic Linux, Python Web Development, Continuous Integration, Cloud Fundamentals, Databases
